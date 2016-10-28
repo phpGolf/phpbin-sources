@@ -1,0 +1,193 @@
+001+ array(76) {
+001- array(71) {
+144+     string(25) "America/Indiana/Tell_City"
+144-     string(21) "America/Indiana/Vevay"
+153+     string(21) "America/Indiana/Vevay"
+153-     string(25) "America/Indiana/Vincennes"
+162+     string(25) "America/Indiana/Vincennes"
+162-     string(23) "America/Indiana/Winamac"
+171+     string(23) "America/Indiana/Winamac"
+171-     string(20) "America/Indianapolis"
+180+     string(20) "America/Indianapolis"
+180-     string(15) "America/Iqaluit"
+189+     string(15) "America/Iqaluit"
+189-     string(15) "America/Jamaica"
+198+     string(15) "America/Jamaica"
+198-     string(27) "America/Kentucky/Louisville"
+207+     string(27) "America/Kentucky/Louisville"
+207-     string(27) "America/Kentucky/Monticello"
+216+     string(27) "America/Kentucky/Monticello"
+216-     string(15) "America/Knox_IN"
+225+     string(15) "America/Knox_IN"
+225-     string(18) "America/Louisville"
+234+     string(18) "America/Louisville"
+234-     string(15) "America/Managua"
+243+     string(15) "America/Managua"
+243-     string(17) "America/Menominee"
+252+     string(17) "America/Menominee"
+252-     string(14) "America/Merida"
+261+     string(14) "America/Merida"
+261-     string(16) "America/Montreal"
+270+     string(15) "America/Moncton"
+270-     string(14) "America/Nassau"
+279+     string(16) "America/Montreal"
+279-     string(15) "America/Nipigon"
+288+     string(14) "America/Nassau"
+288-     string(14) "America/Panama"
+297+     string(15) "America/Nipigon"
+297-     string(19) "America/Pangnirtung"
+306+     string(14) "America/Panama"
+306-     string(22) "America/Port-au-Prince"
+315+     string(19) "America/Pangnirtung"
+315-     string(20) "America/Rankin_Inlet"
+324+     string(22) "America/Port-au-Prince"
+324-     string(21) "America/Santo_Domingo"
+333+     string(20) "America/Rankin_Inlet"
+333-     string(19) "America/Thunder_Bay"
+342+     string(16) "America/Resolute"
+342-     string(15) "America/Toronto"
+351+     string(21) "America/Santo_Domingo"
+351-     string(14) "Canada/Eastern"
+360+     string(19) "America/Thunder_Bay"
+360-     string(3) "EST"
+369+     string(15) "America/Toronto"
+369-     string(7) "EST5EDT"
+378+     string(14) "Canada/Eastern"
+378-     string(7) "Jamaica"
+387+     string(3) "EST"
+387-     string(10) "US/Central"
+396+     string(7) "EST5EDT"
+396-     string(15) "US/East-Indiana"
+405+     string(7) "Jamaica"
+405-     string(10) "US/Eastern"
+414+     string(10) "US/Central"
+414-     string(17) "US/Indiana-Starke"
+423+     string(15) "US/East-Indiana"
+423-     string(11) "US/Michigan"
+430+     int(-18000)
+430-     int(36000)
+432+     string(10) "US/Eastern"
+432-     string(13) "Australia/ACT"
+439+     int(-18000)
+439-     int(36000)
+441+     string(17) "US/Indiana-Starke"
+441-     string(18) "Australia/Brisbane"
+448+     int(-18000)
+448-     int(36000)
+450+     string(11) "US/Michigan"
+450-     string(18) "Australia/Canberra"
+459+     string(13) "Australia/ACT"
+459-     string(16) "Australia/Currie"
+468+     string(18) "Australia/Brisbane"
+468-     string(16) "Australia/Hobart"
+477+     string(18) "Australia/Canberra"
+477-     string(18) "Australia/Lindeman"
+486+     string(16) "Australia/Currie"
+486-     string(19) "Australia/Melbourne"
+495+     string(16) "Australia/Hobart"
+495-     string(13) "Australia/NSW"
+504+     string(13) "Australia/LHI"
+504-     string(20) "Australia/Queensland"
+513+     string(18) "Australia/Lindeman"
+513-     string(16) "Australia/Sydney"
+522+     string(19) "Australia/Lord_Howe"
+522-     string(18) "Australia/Tasmania"
+531+     string(19) "Australia/Melbourne"
+531-     string(18) "Australia/Victoria"
+536+     bool(false)
+536-     bool(true)
+538+     int(36000)
+538-     int(39600)
+540+     string(13) "Australia/NSW"
+540-     string(19) "Australia/Melbourne"
+545+     bool(false)
+545-     bool(true)
+547+     int(36000)
+547-     int(39600)
+549+     string(20) "Australia/Queensland"
+549-     string(13) "Australia/ACT"
+554+     bool(false)
+554-     bool(true)
+556+     int(36000)
+556-     int(39600)
+558+     string(16) "Australia/Sydney"
+558-     string(18) "Australia/Brisbane"
+563+     bool(false)
+563-     bool(true)
+565+     int(36000)
+565-     int(39600)
+567+     string(18) "Australia/Tasmania"
+567-     string(18) "Australia/Canberra"
+572+     bool(false)
+573+     ["offset"]=>
+574+     int(36000)
+575+     ["timezone_id"]=>
+576+     string(18) "Australia/Victoria"
+572-     bool(true)
+573-     ["offset"]=>
+574-     int(39600)
+575-     ["timezone_id"]=>
+576-     string(16) "Australia/Currie"
+585+     string(19) "Australia/Melbourne"
+585-     string(16) "Australia/Hobart"
+594+     string(13) "Australia/ACT"
+594-     string(18) "Australia/Lindeman"
+603+     string(18) "Australia/Brisbane"
+603-     string(13) "Australia/NSW"
+612+     string(18) "Australia/Canberra"
+612-     string(20) "Australia/Queensland"
+621+     string(16) "Australia/Currie"
+621-     string(16) "Australia/Sydney"
+630+     string(16) "Australia/Hobart"
+630-     string(18) "Australia/Tasmania"
+639+     string(18) "Australia/Lindeman"
+639-     string(18) "Australia/Victoria"
+641+   [71]=>
+642+   array(3) {
+641- }
+642- Done
+643+     ["dst"]=>
+644+     bool(true)
+645+     ["offset"]=>
+646+     int(39600)
+647+     ["timezone_id"]=>
+648+     string(13) "Australia/NSW"
+649+   }
+650+   [72]=>
+651+   array(3) {
+652+     ["dst"]=>
+653+     bool(true)
+654+     ["offset"]=>
+655+     int(39600)
+656+     ["timezone_id"]=>
+657+     string(20) "Australia/Queensland"
+658+   }
+659+   [73]=>
+660+   array(3) {
+661+     ["dst"]=>
+662+     bool(true)
+663+     ["offset"]=>
+664+     int(39600)
+665+     ["timezone_id"]=>
+666+     string(16) "Australia/Sydney"
+667+   }
+668+   [74]=>
+669+   array(3) {
+670+     ["dst"]=>
+671+     bool(true)
+672+     ["offset"]=>
+673+     int(39600)
+674+     ["timezone_id"]=>
+675+     string(18) "Australia/Tasmania"
+676+   }
+677+   [75]=>
+678+   array(3) {
+679+     ["dst"]=>
+680+     bool(true)
+681+     ["offset"]=>
+682+     int(39600)
+683+     ["timezone_id"]=>
+684+     string(18) "Australia/Victoria"
+685+   }
+686+ }
+687+ Done

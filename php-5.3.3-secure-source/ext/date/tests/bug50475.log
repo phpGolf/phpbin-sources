@@ -1,0 +1,8 @@
+
+---- EXPECTED OUTPUT
+string(19) "2009-02-02 00:00:00"
+string(19) "2009-02-02 08:00:00"
+---- ACTUAL OUTPUT
+string(19) "2009-02-02 00:00:00"
+string(19) "2009-03-06 08:00:00"
+---- FAILED

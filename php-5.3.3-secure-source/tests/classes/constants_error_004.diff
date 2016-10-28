@@ -1,0 +1,2 @@
+001+ Fatal error: Class 'D' not found in /home/alexander/php5.3-secure/php-5.3.3/tests/classes/constants_error_004.php on line 7
+001- Fatal error: Undefined class constant 'D::hello' in %s on line %d

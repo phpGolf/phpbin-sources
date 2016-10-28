@@ -1,0 +1,352 @@
+004+ 
+005+ Warning: DateTime::modify(): Failed to parse time string (0) at position 0 (0): Unexpected character in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+006+ bool(false)
+004- object(DateTime)#3 (3) {
+005-   ["date"]=>
+006-   string(19) "2009-01-31 14:28:41"
+007-   ["timezone_type"]=>
+008-   int(3)
+009-   ["timezone"]=>
+010-   string(13) "Europe/London"
+011- }
+009+ 
+010+ Warning: DateTime::modify(): Failed to parse time string (1) at position 0 (1): Unexpected character in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+011+ bool(false)
+014+ 
+015+ Warning: DateTime::modify(): Failed to parse time string (12345) at position 4 (5): Unexpected character in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+016+ bool(false)
+017+ 
+018+ -- int -12345 --
+019+ 
+020+ Warning: DateTime::modify(): Failed to parse time string (-12345) at position 5 (5): Unexpected character in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+021+ bool(false)
+022+ 
+023+ -- float 10.5 --
+014- object(DateTime)#3 (3) {
+015-   ["date"]=>
+016-   string(19) "2009-01-31 14:28:41"
+017-   ["timezone_type"]=>
+018-   int(3)
+019-   ["timezone"]=>
+020-   string(13) "Europe/London"
+021- }
+033+ -- float -10.5 --
+034+ 
+035+ Warning: DateTime::modify(): Failed to parse time string (-10.5) at position 4 (5): Unexpected character in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+036+ bool(false)
+037+ 
+038+ -- float .5 --
+033- -- int -12345 --
+043- -- float 10.5 --
+044- object(DateTime)#3 (3) {
+045-   ["date"]=>
+046-   string(19) "2009-01-31 14:28:41"
+047-   ["timezone_type"]=>
+048-   int(3)
+049-   ["timezone"]=>
+050-   string(13) "Europe/London"
+051- }
+048+ -- empty array --
+049+ 
+050+ Warning: DateTime::modify() expects parameter 1 to be string, array given in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+051+ bool(false)
+052+ 
+053+ -- int indexed array --
+054+ 
+055+ Warning: DateTime::modify() expects parameter 1 to be string, array given in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+056+ bool(false)
+057+ 
+058+ -- associative array --
+059+ 
+060+ Warning: DateTime::modify() expects parameter 1 to be string, array given in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+061+ bool(false)
+062+ 
+063+ -- nested arrays --
+064+ 
+065+ Warning: DateTime::modify() expects parameter 1 to be string, array given in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+066+ bool(false)
+067+ 
+068+ -- uppercase NULL --
+069+ 
+070+ Warning: DateTime::modify(): Failed to parse time string () at position 0 ( in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+071+ bool(false)
+072+ 
+073+ -- lowercase null --
+074+ 
+075+ Warning: DateTime::modify(): Failed to parse time string () at position 0 ( in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+076+ bool(false)
+077+ 
+078+ -- lowercase true --
+079+ 
+080+ Warning: DateTime::modify(): Failed to parse time string (1) at position 0 (1): Unexpected character in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+081+ bool(false)
+082+ 
+083+ -- lowercase false --
+084+ 
+085+ Warning: DateTime::modify(): Failed to parse time string () at position 0 ( in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+086+ bool(false)
+087+ 
+088+ -- uppercase TRUE --
+089+ 
+090+ Warning: DateTime::modify(): Failed to parse time string (1) at position 0 (1): Unexpected character in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+091+ bool(false)
+092+ 
+093+ -- uppercase FALSE --
+094+ 
+095+ Warning: DateTime::modify(): Failed to parse time string () at position 0 ( in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+096+ bool(false)
+097+ 
+098+ -- empty string DQ --
+099+ 
+100+ Warning: DateTime::modify(): Failed to parse time string () at position 0 ( in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+101+ bool(false)
+102+ 
+103+ -- empty string SQ --
+104+ 
+105+ Warning: DateTime::modify(): Failed to parse time string () at position 0 ( in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+106+ bool(false)
+107+ 
+108+ -- string DQ --
+109+ 
+110+ Warning: DateTime::modify(): Failed to parse time string (string) at position 0 (s): The timezone could not be found in the database in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+111+ bool(false)
+112+ 
+113+ -- string SQ --
+114+ 
+115+ Warning: DateTime::modify(): Failed to parse time string (string) at position 0 (s): The timezone could not be found in the database in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+116+ bool(false)
+117+ 
+118+ -- mixed case string --
+119+ 
+120+ Warning: DateTime::modify(): Failed to parse time string (sTrInG) at position 0 (s): The timezone could not be found in the database in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+121+ bool(false)
+122+ 
+123+ -- heredoc --
+124+ 
+125+ Warning: DateTime::modify(): Failed to parse time string (hello world) at position 0 (h): The timezone could not be found in the database in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+126+ bool(false)
+127+ 
+128+ -- instance of classWithToString --
+129+ 
+130+ Warning: DateTime::modify(): Failed to parse time string (Class A object) at position 0 (C): The timezone could not be found in the database in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+131+ bool(false)
+132+ 
+133+ -- instance of classWithoutToString --
+134+ 
+135+ Warning: DateTime::modify() expects parameter 1 to be string, object given in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+136+ bool(false)
+137+ 
+138+ -- undefined var --
+139+ 
+140+ Warning: DateTime::modify(): Failed to parse time string () at position 0 ( in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+141+ bool(false)
+142+ 
+143+ -- unset var --
+144+ 
+145+ Warning: DateTime::modify(): Failed to parse time string () at position 0 ( in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+146+ bool(false)
+147+ 
+148+ -- resource --
+053- -- float -10.5 --
+054- object(DateTime)#3 (3) {
+055-   ["date"]=>
+150+ Warning: DateTime::modify() expects parameter 1 to be string, resource given in /home/alexander/php5.3-secure/php-5.3.3/ext/date/tests/DateTime_modify_variation1.php on line 99
+151+ bool(false)
+152+ ===DONE===
+056-   string(19) "2009-01-31 14:28:41"
+057-   ["timezone_type"]=>
+058-   int(3)
+059-   ["timezone"]=>
+060-   string(13) "Europe/London"
+061- }
+062- 
+063- -- float .5 --
+064- object(DateTime)#3 (3) {
+065-   ["date"]=>
+066-   string(19) "2009-01-31 14:28:41"
+067-   ["timezone_type"]=>
+068-   int(3)
+069-   ["timezone"]=>
+070-   string(13) "Europe/London"
+071- }
+072- 
+073- -- empty array --
+074- 
+075- Warning: DateTime::modify() expects parameter 1 to be string, array given in %s on line %d
+076- bool(false)
+077- 
+078- -- int indexed array --
+079- 
+080- Warning: DateTime::modify() expects parameter 1 to be string, array given in %s on line %d
+081- bool(false)
+082- 
+083- -- associative array --
+084- 
+085- Warning: DateTime::modify() expects parameter 1 to be string, array given in %s on line %d
+086- bool(false)
+087- 
+088- -- nested arrays --
+089- 
+090- Warning: DateTime::modify() expects parameter 1 to be string, array given in %s on line %d
+091- bool(false)
+092- 
+093- -- uppercase NULL --
+094- object(DateTime)#3 (3) {
+095-   ["date"]=>
+096-   string(19) "2009-01-31 14:28:41"
+097-   ["timezone_type"]=>
+098-   int(3)
+099-   ["timezone"]=>
+100-   string(13) "Europe/London"
+101- }
+102- 
+103- -- lowercase null --
+104- object(DateTime)#3 (3) {
+105-   ["date"]=>
+106-   string(19) "2009-01-31 14:28:41"
+107-   ["timezone_type"]=>
+108-   int(3)
+109-   ["timezone"]=>
+110-   string(13) "Europe/London"
+111- }
+112- 
+113- -- lowercase true --
+114- object(DateTime)#3 (3) {
+115-   ["date"]=>
+116-   string(19) "2009-01-31 14:28:41"
+117-   ["timezone_type"]=>
+118-   int(3)
+119-   ["timezone"]=>
+120-   string(13) "Europe/London"
+121- }
+122- 
+123- -- lowercase false --
+124- object(DateTime)#3 (3) {
+125-   ["date"]=>
+126-   string(19) "2009-01-31 14:28:41"
+127-   ["timezone_type"]=>
+128-   int(3)
+129-   ["timezone"]=>
+130-   string(13) "Europe/London"
+131- }
+132- 
+133- -- uppercase TRUE --
+134- object(DateTime)#3 (3) {
+135-   ["date"]=>
+136-   string(19) "2009-01-31 14:28:41"
+137-   ["timezone_type"]=>
+138-   int(3)
+139-   ["timezone"]=>
+140-   string(13) "Europe/London"
+141- }
+142- 
+143- -- uppercase FALSE --
+144- object(DateTime)#3 (3) {
+145-   ["date"]=>
+146-   string(19) "2009-01-31 14:28:41"
+147-   ["timezone_type"]=>
+148-   int(3)
+149-   ["timezone"]=>
+150-   string(13) "Europe/London"
+151- }
+152- 
+153- -- empty string DQ --
+154- object(DateTime)#3 (3) {
+155-   ["date"]=>
+156-   string(19) "2009-01-31 14:28:41"
+157-   ["timezone_type"]=>
+158-   int(3)
+159-   ["timezone"]=>
+160-   string(13) "Europe/London"
+161- }
+162- 
+163- -- empty string SQ --
+164- object(DateTime)#3 (3) {
+165-   ["date"]=>
+166-   string(19) "2009-01-31 14:28:41"
+167-   ["timezone_type"]=>
+168-   int(3)
+169-   ["timezone"]=>
+170-   string(13) "Europe/London"
+171- }
+172- 
+173- -- string DQ --
+174- object(DateTime)#3 (3) {
+175-   ["date"]=>
+176-   string(19) "2009-01-31 14:28:41"
+177-   ["timezone_type"]=>
+178-   int(3)
+179-   ["timezone"]=>
+180-   string(13) "Europe/London"
+181- }
+182- 
+183- -- string SQ --
+184- object(DateTime)#3 (3) {
+185-   ["date"]=>
+186-   string(19) "2009-01-31 14:28:41"
+187-   ["timezone_type"]=>
+188-   int(3)
+189-   ["timezone"]=>
+190-   string(13) "Europe/London"
+191- }
+192- 
+193- -- mixed case string --
+194- object(DateTime)#3 (3) {
+195-   ["date"]=>
+196-   string(19) "2009-01-31 14:28:41"
+197-   ["timezone_type"]=>
+198-   int(3)
+199-   ["timezone"]=>
+200-   string(13) "Europe/London"
+201- }
+202- 
+203- -- heredoc --
+204- object(DateTime)#3 (3) {
+205-   ["date"]=>
+206-   string(19) "2009-01-31 14:28:41"
+207-   ["timezone_type"]=>
+208-   int(3)
+209-   ["timezone"]=>
+210-   string(13) "Europe/London"
+211- }
+212- 
+213- -- instance of classWithToString --
+214- object(DateTime)#3 (3) {
+215-   ["date"]=>
+216-   string(19) "2009-01-31 14:28:41"
+217-   ["timezone_type"]=>
+218-   int(3)
+219-   ["timezone"]=>
+220-   string(13) "Europe/London"
+221- }
+222- 
+223- -- instance of classWithoutToString --
+224- 
+225- Warning: DateTime::modify() expects parameter 1 to be string, object given in %s on line %d
+226- bool(false)
+227- 
+228- -- undefined var --
+229- object(DateTime)#3 (3) {
+230-   ["date"]=>
+231-   string(19) "2009-01-31 14:28:41"
+232-   ["timezone_type"]=>
+233-   int(3)
+234-   ["timezone"]=>
+235-   string(13) "Europe/London"
+236- }
+237- 
+238- -- unset var --
+239- object(DateTime)#3 (3) {
+240-   ["date"]=>
+241-   string(19) "2009-01-31 14:28:41"
+242-   ["timezone_type"]=>
+243-   int(3)
+244-   ["timezone"]=>
+245-   string(13) "Europe/London"
+246- }
+247- 
+248- -- resource --
+249- 
+250- Warning: DateTime::modify() expects parameter 1 to be string, resource given in %s on line %d
+251- bool(false)
+252- ===DONE===

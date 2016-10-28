@@ -1,0 +1,10 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--prefix=/home/phpgolf/php-5.3.3-secure/' \
+'--disable-all' \
+'--disable-cgi' \
+'--disable-ipv6' \
+"$@"

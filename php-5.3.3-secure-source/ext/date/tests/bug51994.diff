@@ -1,0 +1,10 @@
+005+   int(1)
+005-   int(6)
+007+   int(154)
+007-   int(3)
+017+   int(1)
+017-   int(0)
+019+   array(1) {
+020+     [5]=>
+021+     string(27) "The parsed date was invalid"
+019-   array(0) {
